@@ -1,0 +1,365 @@
+h1 {
+  margin-bottom: 50px;
+}
+
+a:hover { color: white }
+
+.actionItem {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel {
+  background: yellow !important;
+  color: darkblue !important;
+}
+
+tbody {
+  height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.addHome {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center !important;
+  padding: 10px;
+  margin: 20px auto 0;
+  cursor: pointer;
+  color: white !important;
+  border: 2px solid white;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,45,71,1) 100%, rgba(0,212,255,1) 100%);
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  height: 63px;
+  box-shadow: 0 0 10px black;
+  position: relative !important;
+  top: -72px !important;
+  right: -31em !important;
+}
+
+#app>div.flex-grow-1.mt-5.container>div>button>a {
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  height: 600px;
+  width: 100%;
+}
+
+.product {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  width: 33%;
+  margin: 2em 1em;
+  border: 1px solid black;
+  /* REM/VE LATER */
+  padding: 1.5em;
+}
+
+#spinner-icon {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#spinner-icon {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.product-cover {
+  width: 380px !important;
+  height: 260px;
+  object-fit: contain;
+  /* border: 3px solid darkblue; */
+}
+
+img.profile {
+  width: 200px;
+  height: 300px !important;
+  object-fit: contain;
+}
+
+img.rounded-circle {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+
+button {
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.delete {
+  padding: 3px 6px;
+  background-color: red;
+}
+
+.update {
+  border: 1px solid white;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,45,71,1) 100%, rgba(0,212,255,1) 100%);
+  color: white;
+  margin: 0 5px;
+  width: 100%;
+  box-shadow: 0 0 10px black;
+}
+
+.update:hover {
+  border: 1px solid white;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,45,71,1) 100%, rgba(0,212,255,1) 100%);
+  color: white;
+  margin: 0 5px;
+}
+
+.button.update-update {
+  background: rgba(164,45,71,1) !important;
+  margin: 1em 0;
+  color: white;
+}
+
+#app>div.flex-grow-1.mt-5.container>div>div>div>button.delete {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 39%, rgba(255, 0, 0, 1) 98%);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+textarea {
+  padding: 10px;
+}
+
+button {
+  border: 2px solid white !important;
+  padding: 10px;
+  background: rgba(9, 22, 121, 1);
+  color: white !important;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* |||||||||||| ADD FORM |||||||||||| */
+#product-add {
+  width: 40%;
+  height: 50vh;
+  margin: auto;
+}
+
+h1#new-book {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,45,71,1) 100%, rgba(0,212,255,1) 100%);
+  font-family: fantasy;
+  height: 75px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+  color: yellow;
+  font-weight: 700;
+  text-shadow: 3px 3px 3px black;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#product-add>div:nth-child(2) {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+textarea,
+button.button {
+  box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+  border: 2px solid black;
+}
+
+
+#product-add > div.field > button.button.cancel.button {
+  margin-bottom: 1em;
+}
+
+#app>div.flex-grow-1.mt-5.container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#field-0,
+.field-1 {
+  width: 100%;
+}
+
+.field-2 {
+  width: 100%;
+  margin: 5px 0;
+  padding: 1em;
+}
+
+
+@media (max-width: 1500px) {
+  #product-add {
+    width: 85%;
+    /* height: 50vh; */
+    margin: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  #product-add {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+  }
+}
+
+form {
+  margin: 2em 0;
+}
+
+/**
+* Make the field a flex-container, reverse the order so label is on top.
+*/
+
+.field {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 1em;
+  width: 100% !important;
+}
+
+/**
+* Add a transition to the label and input.
+* I'm not even sure that touch-action: manipulation works on
+* inputs, but hey, it's new and cool and could remove the 
+* pesky delay.
+*/
+label,
+input {
+  transition: all 0.2s;
+  touch-action: manipulation;
+}
+
+input {
+  font-size: 1.5em;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  font-family: inherit;
+  border-radius: 0;
+  padding: 0;
+  cursor: text;
+}
+
+input:focus {
+  outline: 0;
+  border-bottom: 1px solid #666;
+}
+
+label {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: darkblue !important;
+}
+
+/**
+* Translate down and scale the label up to cover the placeholder,
+* when following an input (with placeholder-shown support).
+* Also make sure the label is only on one row, at max 2/3rds of the
+* field—to make sure it scales properly and doesn't wrap.
+*/
+input:placeholder-shown+label {
+  cursor: text;
+  max-width: 66.66%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform-origin: left bottom;
+  transform: translate(0, 2.125rem) scale(1.5);
+}
+
+/**
+* By default, the placeholder should be transparent. Also, it should 
+* inherit the transition.
+*/
+::-webkit-input-placeholder {
+  opacity: 0;
+  transition: inherit;
+}
+
+/**
+* Show the placeholder when the input is focused.
+*/
+input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+/**
+* When the element is focused, remove the label transform.
+* Also, do this when the placeholder is _not_ shown, i.e. when 
+* there's something in the input at all.
+*/
+input:not(:placeholder-shown)+label,
+input:focus+label {
+  transform: translate(0, 0) scale(1);
+  cursor: pointer;
+}
+
+/* |||||||||||| EDIT FORM |||||||||||| */
+#product-edit {
+  width: 40%;
+  margin: auto;
+}
+
+@media (max-width: 720px) {
+  #product-edit {
+    width: 90%;
+    margin: auto;
+  }
+
+  .h-1 {
+    font-size: 2rem !important;
+  }
+  
+  .addProduct {
+    font-size: 2rem !important;
+  }
+
+
+
+  .addHome {
+    top: 0em !important;
+    right: -2em !important;
+  }
+}

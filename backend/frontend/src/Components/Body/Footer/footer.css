@@ -1,0 +1,32 @@
+/* |||||||||||||||| FOOTER |||||||||||||||| */
+#root > footer {
+  position: fixed !important;
+  width: 100%;
+  bottom: 0;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+#footer-row {
+  display: flex;
+  flex-flow: row !important;
+  justify-content: center;
+  align-items: center;
+}
+
+#lemon-footer {
+  font-size: 20px;
+  margin-right: 10px;
+  color: yellow;
+}
+
+.yellow {
+  color: yellow;
+}
+
+#footer-row > p > a { 
+  text-shadow: 1px 1px 1px rgb(7, 7, 0);
+  color: white;
+} 

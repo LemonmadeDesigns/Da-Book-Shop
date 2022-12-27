@@ -1,0 +1,99 @@
+#lemon {
+  font-size: 24px;
+  color: yellow;
+  text-shadow: 3px 3px 3px black;
+  margin-right: 0.5em;
+  font-family: Zapfino;
+  position: relative;
+  bottom: 28px;
+  left: 17px;
+}
+
+#app>div.nav-container.mb-3>nav>div>div.navbar-nav.mr-auto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.myContainer {
+  width: 30%;
+}
+
+.myCon-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 700px;
+}
+
+.navbar-nav:last-child {
+  background: transparent;
+  box-shadow: none !important;
+  margin: 1.5em 0 0 0;
+  padding: 1.5em 2.5rem;
+}
+
+@media (max-width: 1600px) {
+  #app>div.nav-container.mb-3>nav>div>div.navbar-nav.mr-auto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .myContainer {
+    width: 30%;
+  }
+
+  .myCon-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 700px;
+  }
+
+  .myCon-1,
+  .myCon-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 700px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 29px;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .h-1 {
+    font-size: 24px !important;
+  }
+
+  .addHome {
+    top: 0em !important;
+    right: -2em !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .addHome {
+    top: -2em !important;
+    right: 0em !important;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px black;
+  margin: 5px;
+}

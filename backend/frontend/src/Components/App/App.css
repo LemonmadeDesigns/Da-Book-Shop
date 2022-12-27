@@ -1,0 +1,12 @@
+.App {
+  height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#root > div > div.columns > div > div.text-center.hero > h1 {
+  font-size: 35px;
+}

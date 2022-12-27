@@ -1,0 +1,148 @@
+#app > div.nav-container.mb-3 > nav, h1 { 
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,45,71,1) 100%, rgba(0,212,255,1) 100%);
+  border-bottom: 3px solid rgb(12,22,116);
+}
+ 
+h1 { 
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,45,71,1) 100%, rgba(0,212,255,1) 100%);
+  font-family: Zapfino;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+h3 { 
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,45,71,1) 100%, rgba(0,212,255,1) 100%);
+  font-family: inherit;
+  box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+  color: white;
+  border: 2px solid white;
+  padding: .5em !important;
+}
+
+#app > div.nav-container.mb-3 > nav > div > div.navbar-nav.mr-auto > div > button {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,45,71,1) 100%, rgba(0,212,255,1) 100%);
+  border: 2px solid white;
+}
+
+#app > div.nav-container.mb-3 > nav > div > div.navbar-nav.mr-auto > a {
+  color: white;
+}
+
+.col-md-5 {
+  flex: 0 0 80.666667%;
+  max-width: 80.666667%;
+}
+
+.next-steps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.boxed-in {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+img.home-photo {
+  width: 70%;
+  /* height: 800px; */
+  object-fit: contain;
+  /* border: 4px double black; */
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+}
+
+img.profile-photo {
+  width: 100%;
+  height: 300px;
+  border: 4px double black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.h-1 {
+  /* font-family: fantasy; */
+  font-size: 48px !important;
+  color: yellow;
+  font-weight: 900;
+  /* width: 500px; */
+  /* margin-bottom: 0em; */
+  text-shadow: 3px 3px 3px black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.h-2 {
+  font-size: 28px;
+  color: rgb(12,22,116);
+  text-shadow: 1px 1px 1px black;
+  font-family: fantasy;
+  /* font-family: Verdana; */
+  position: relative;
+  top: 15px;
+  font-weight: 700;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#app > footer { 
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,45,71,1) 100%, rgba(0,212,255,1) 100%);
+  border-top: 3px solid rgb(12,22,116);
+  position: fixed;
+  width: 100%;
+  bottom: -69px;
+}
+
+@media (max-width: 1200px) {
+  .h-1 {
+    font-size: 2rem !important;
+    color: yellow;
+ 
+  }
+/* 
+  .col-md-5 {
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
+  } */
+
+  .next-steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100% !important;
+    max-width: 100% !important;
+    align-items: stretch;
+    align-content: space-around;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-1 {
+    font-size: 2rem !important;
+    color: yellow;
+ 
+  }
+
+  .col-md-5 {
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .h-1 {
+    font-size: 2rem !important;
+    color: yellow;
+ 
+  }
+
+  .col-md-5 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
